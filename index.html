@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Rellax Parallax</title>
+     <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+     
+     <section>
+          <h1>A Lovely Dreamscape</h1>
+          <p>Live your dreams here</p>
+
+          <button>Join up now</button>
+
+          <img src="/images/layer01.png" class="foreground rellax" data-rellax-speed="0" data-rellax-percentage="-0.3">
+          <img src="/images/layer02.png" class="dark-forest rellax" data-rellax-speed="1">
+          <img src="/images/layer03.png" class="forest rellax" data-rellax-speed="2">
+          <img src="/images/layer04.png" class="mountains rellax" data-rellax-speed="3">
+          <img src="/images/layer05.png" class="sky rellax" data-rellax-speed="4" data-rellax-percentage="1">
+     </section>
+
+     <section>
+          <h2 >Relax and enjoy your time here in the Dreamscape</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos natus facilis similique sed consequatur quis, eaque iure vel delectus rerum architecto est voluptas minima soluta quia odio. Excepturi, nemo mollitia.</p>
+     </section>
+
+     
+     <!-- Rellax.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js" integrity="sha256-jyHh7xruaFLUoKPPnsSwEvYrBnzJczScRNnuh4Ysblc=" crossorigin="anonymous"></script>
+     
+     <!-- ScrollOut -->
+     <!-- <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script> -->
+     <script>
+
+          // ScrollOut ({
+          //      threshold: 0.6
+          // })
+
+          var rellax = new Rellax('.rellax');
+     </script>
+
+</body>
+</html>
